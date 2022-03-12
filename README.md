@@ -1,13 +1,11 @@
 # MNIST-handwriting-recognition
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/namanarora97/MNIST-handwriting-recognition/blob/main/MNIST-Handwriting-Classification.ipynb)
+[![Open In Colab](https://github.com/namanarora97/Data-Science-Notebooks/blob/main/assets/colab-badge.svg)](https://githubtocolab.com/namanarora97/MNIST-handwriting-recognition/blob/main/MNIST-Handwriting-Classification.ipynb)
 
 
 I performed a drill-down on the MNIST dataset to train a handwriting recognition algorithm. 
 
 Here, I experimented with two different approaches. First, I went with a bare-bones Naive Bayes approach. While the results are satisfactory, the drawbacks of Naive Bayes are evident in the error analysis. The model tends to get confused when it sees data points that have very little similarity to anything it has seen in the training set. 
-
-## Findings
 
 My findings corroborate the fact that Naive Bayes would only perform well when the predictors are independent. We learn that this may not be the case for the MNIST dataset because of the inherent nature of how the dataset is generated. Handwriting strokes generate vectors which have a dependency on one another. For example, it is much more likely for pixels that are next to a stroke to be active than those which are farther away. 
 
