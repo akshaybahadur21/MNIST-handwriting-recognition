@@ -1,5 +1,8 @@
 # MNIST-handwriting-recognition
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/namanarora97/MNIST-handwriting-recognition/blob/main/MNIST-Handwriting-Classification.ipynb)
+
+
 I performed a drill-down on the MNIST dataset to train a handwriting recognition algorithm. 
 
 Here, I experimented with two different approaches. First, I went with a bare-bones Naive Bayes approach. While the results are satisfactory, the drawbacks of Naive Bayes are evident in the error analysis. The model tends to get confused when it sees data points that have very little similarity to anything it has seen in the training set. 
